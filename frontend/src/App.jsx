@@ -6,7 +6,7 @@ function App() {
   const [title, setTitle] = useState('');
 
   // 백엔드 주소 (로컬 테스트용)
-  const API_URL = 'http://localhost:5000/api/todos';
+  const API_URL = '/_/backend/api/todos';
 
   // 1. Todo 목록 가져오기 (Read)
   useEffect(() => {
